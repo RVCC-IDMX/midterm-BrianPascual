@@ -1,8 +1,28 @@
 /* Styles for Mobile Site */
+body {
+    font-family:Roboto;
+    background-color: #B23EDE;
+    color: #cfff60;
+}
 
 /* Header & Hero */
+#header {
+    text-align: center;
+}
+#hero footer {
+    color:#3158C3;
+    border: 2px solid #585E4A;
+    background-color: #322C34;
+    text-align:center;
+    padding:10px;
+}
+#hero img{
+    width:300px;
+    max-width: 100%;
+}
 
 /* Projects */
+
 
 /* Reviews */
 
@@ -13,9 +33,9 @@
 @media (min-width: 1000px) {
 
     /* Header & Hero */
-
+   
     /* Projects */
-
+    
     /* Reviews */
 
     /* Footer */
