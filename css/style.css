@@ -1,42 +1,110 @@
 /* Styles for Mobile Site */
 body {
-    font-family:Roboto;
+    font-family:Roboto; sans-serif;
     background-color: #B23EDE;
     color: #cfff60;
+    margin:0;
+    padding: 0;
+}
+h1{
+    text-align: center;
 }
 
 /* Header & Hero */
 #header {
     text-align: center;
+    padding:20px;
 }
-#hero footer {
-    color:#3158C3;
-    border: 2px solid #585E4A;
-    background-color: #322C34;
-    text-align:center;
-    padding:10px;
+#hero {
+    text-align: center;
+    background-color: #322c34;
+    padding:20px;
+    border:2px solid #585e4a:
+
 }
 #hero img{
     width:300px;
     max-width: 100%;
 }
 
+#hero p {
+    font-size:18px;
+    margin-top: 10px;
+}
+
 /* Projects */
+#projects {
+    text-align:center;
+    padding: 20px;
+
+}
+.project {
+    display:inline-block;
+    width:90%;
+    margin:10px auto;
+    background-color:#322C34;
+    padding:10px;
+    border-radius:8px;
+}
+.project img {
+    width:100%;
+    border-radius:5px
+}
 
 
 /* Reviews */
+#reviews {
+padding:20px;
+background-color: #322C34;
+}
+.review {
+    border-bottom:1px solid #585e4a;
+    padding:10px;
+}
+.review .rating {
+    font-weight:bold;
+    color:#ffcc00;
 
+}
+.review .title {
+    font-weight: lighter;
+    font-size:10px;
+    color: aliceblue;
+}
 /* Footer */
-
+footer {
+    color:#3158c3;
+    background-color:#322C34;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #585e4a;
+}
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
 
     /* Header & Hero */
+    #hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
    
+    #hero img {
+        width:200px;
+    }
     /* Projects */
+    .project {
+        width:30%;
+        display: inline-block;
+    }
     
     /* Reviews */
+    #reviews {
+        max-width:800px;
+        margin:auto;
+    }
 
     /* Footer */
 
